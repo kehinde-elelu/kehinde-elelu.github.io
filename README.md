@@ -1,2 +1,2 @@
-# burunkus.github.io
-Coming soon
+# burunkus.github.io -> ejokpala@.com
+This is the personal website of Ebuka Johnbosco Okpala
