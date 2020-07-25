@@ -1,0 +1,214 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    width: 100%;
+}
+
+body {
+  font-family: Arial;
+  margin: 0;
+  font-weight: 400;
+}
+
+img, video, embed, object {
+    max-width: 100%;
+    border-radius: 4px;
+}
+
+p {
+    margin: 0em;
+}
+
+.content-wrapper, .profile-wrapper, main {
+    width: 100%
+}
+
+.content {
+    padding: 0 2em;
+    margin: 0 auto;
+    max-width: 800px;
+}
+
+header {
+    width: 100%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+    /*text-align: center;*/
+    font-family: "Times New Roman", Times, serif;
+    letter-spacing: 1px;
+    line-height: 1;
+}
+
+header>h3 {
+    font-size: 3rem;
+    color: #1079ac;
+    margin: 0em;
+}
+
+header>p {
+    display: none;
+}
+
+.profile-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 1.5em;
+}
+
+.introduction-wrapper {
+}
+
+.visuals-wrapper {
+    flex: 0 0 240px;
+    margin-bottom: 1.5em;
+}
+
+.image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 1em;
+}
+
+.contacts-wrapper {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacts-wrapper>div {
+    display: flex;
+    width: 100%;
+    margin-bottom: 9px;
+}
+
+.cv {
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+
+.cv .btn {
+    color: #000;
+    border-color: #ced2d9;
+    transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+}
+
+.cv a:hover {
+    box-shadow: 3px 3px 14px #DCDCDC;
+    background-color: white;
+}
+
+.cv a:active {
+    text-decoration: none;
+}
+
+.icon {
+    width: 24px;
+    height: 24px;
+    margin-right: 8px;
+}
+
+.contact a {
+    color: #000;
+}
+
+.icon .linkedin {
+    color: #0077b5;
+}
+
+.github, .linkedin, .email {
+    font-size: 24px;
+}
+
+.github {
+    color: purple
+}
+
+a:visited, a:active {
+    text-decoration: none;
+}
+
+.publications-header {
+    font-family:  "Times New Roman", Times, serif;
+    font-size: 1.6em;
+}
+
+ul.publication {
+    list-style-position: outside;
+}
+
+.paper-wrapper {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5;
+    word-spacing: 1px;
+}
+
+.paper-wrapper a {
+    border-left: 1px solid #C0C0C0;
+    padding: 0.5em;
+}
+
+.paper-title {
+    margin-right: 7px;
+}
+
+.publications li {
+    margin-bottom: 1em;
+}
+
+.introduction p:nth-child(2) {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.no-hover a:hover {
+    text-decoration: none;
+}
+
+footer {
+    width: 100%;
+    position: relative;
+    margin-top: 2em;
+}
+
+.footer-inner {
+    padding: 2em;
+    max-width: 800px;
+    margin: 0 auto;
+    color: #777;
+}
+
+.line {
+    border-top: 1px solid #BEBEBE;
+    padding-top: 1.5em;
+    font-size: 0.9em;
+
+}
+
+
+/*If the viewport is greater than 600px*/
+@media screen and (min-width: 600px) {
+    .introduction-wrapper {
+        width: 100%;
+        padding-left: 1.3em;
+        margin-top: 1em;
+        flex: 1;
+    }
+}
+
+@media screen and (min-width: 800px) {
+    .visuals-wrapper {
+        margin-bottom: 0em;
+    }
+}
+
