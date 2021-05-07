@@ -175,6 +175,10 @@ ul.publication {
     text-decoration: none;
 }
 
+.job-updates {
+    margin-top: 10px;
+}
+
 footer {
     width: 100%;
     position: relative;
