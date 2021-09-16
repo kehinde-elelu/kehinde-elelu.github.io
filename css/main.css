@@ -162,6 +162,10 @@ ul.publication {
     margin-right: 7px;
 }
 
+.paper-title, .paper-authors, .paper-conference {
+    display: inline;
+}
+
 .publications li {
     margin-bottom: 1em;
 }
