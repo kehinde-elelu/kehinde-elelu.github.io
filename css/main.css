@@ -166,6 +166,10 @@ ul.publication {
     display: inline;
 }
 
+.paper-title {
+    font-weight: bold;
+}
+
 .publications li {
     margin-bottom: 1em;
 }
