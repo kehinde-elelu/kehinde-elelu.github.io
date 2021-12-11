@@ -13,3 +13,5 @@ This github repository serves the personal [website](https://ejokpala.com) of Eb
 * Commit changes:  `git commit -m "message"`
 * To aviod merge conflict, pull before you push: `git pull`. Resolve any conflicts if any. 
 * Push changes to master:  `git push`
+
+See this [stackoverflow](https://stackoverflow.com/questions/107701/how-can-i-remove-ds-store-files-from-a-git-repository) page for how to remove .DS_Store 
