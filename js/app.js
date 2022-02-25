@@ -1,5 +1,5 @@
 myApp = {}
-myApp.is_bootstrap_working = function() {
+myApp.isBootstrapWorking = function() {
     let test_div = document.createElement("div");
     test_div.className = "hidden d-none";
     document.head.appendChild(test_div);
@@ -13,4 +13,11 @@ myApp.is_bootstrap_working = function() {
         document.head.appendChild(link)
     }
 }
-myApp.is_bootstrap_working()
+
+myApp.setCopyrightDate = function() {
+    let time_div = document.getElementsByClassName("copyright-date")[0];
+    time_div.textContent = new Date().getFullYear();
+}
+
+myApp.isBootstrapWorking()
+myApp.setCopyrightDate()
