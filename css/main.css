@@ -174,7 +174,7 @@ ul.publication {
     margin-bottom: 1em;
 }
 
-.introduction p:nth-child(2) {
+.introduction p {
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -213,7 +213,6 @@ footer {
     .introduction-wrapper {
         width: 100%;
         padding-left: 1.3em;
-        margin-top: 1em;
         flex: 1;
     }
 }
