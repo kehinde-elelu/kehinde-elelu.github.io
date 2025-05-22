@@ -207,6 +207,56 @@ footer {
 
 }
 
+.publications-wrapper {
+    margin-bottom: 2em;
+}
+
+.publications-header {
+    padding-left: 0.5em;
+    text-align: left;
+}
+
+ul.publications {
+    padding-left: 1.5em;
+    margin-top: 0.5em;
+}
+
+ul.publications li {
+    margin-bottom: 1em;
+    list-style-type: disc;
+}
+
+.paper-wrapper {
+    display: block;
+    padding-left: 0;
+}
+
+.paper-details {
+    margin: 0;
+}
+
+.paper-title {
+    font-size: 1em;
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.2em;
+    color: #222;
+}
+
+.paper-authors {
+    display: block;
+    font-size: 0.98em;
+    color: #444;
+    margin-left: 0.2em;
+    margin-bottom: 0.1em;
+}
+
+.paper-conference {
+    display: block;
+    font-size: 0.95em;
+    color: #666;
+    margin-left: 0.2em;
+}
 
 /*If the viewport is greater than 600px*/
 @media screen and (min-width: 600px) {
@@ -221,5 +271,83 @@ footer {
     .visuals-wrapper {
         margin-bottom: 0em;
     }
+}
+
+.redesigned-profile {
+  display: flex;
+  gap: 2em;
+  align-items: flex-start;
+  margin-bottom: 2em;
+  flex-wrap: wrap;
+}
+
+.profile-card {
+  background: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+  padding: 2em 1.5em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-width: 240px;
+  max-width: 320px;
+  flex: 1 1 260px;
+}
+
+.profile-card .image-wrapper {
+  margin-bottom: 1em;
+}
+
+.profile-card .profile-image {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 3px solid #1079ac;
+  box-shadow: 0 2px 8px rgba(16,121,172,0.08);
+}
+
+.profile-card .contacts-wrapper {
+  width: 100%;
+  margin-top: 1em;
+  gap: 0.5em;
+}
+
+.profile-card .contact {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.5em;
+}
+
+.profile-card .icon {
+  width: 28px;
+  height: 28px;
+  margin-right: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.profile-card .cv {
+  margin-top: 1em;
+  text-align: center;
+}
+
+.introduction-wrapper {
+  flex: 2 1 340px;
+  padding-left: 0.5em;
+  min-width: 260px;
+}
+
+@media (max-width: 800px) {
+  .redesigned-profile {
+    flex-direction: column;
+    gap: 1.5em;
+  }
+  .profile-card, .introduction-wrapper {
+    max-width: 100%;
+    min-width: 0;
+    padding-left: 0;
+  }
 }
 
